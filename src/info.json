@@ -4,5 +4,32 @@
     "email": "benchiang0920@gmail.com",
     "phone": "0970688358",
     "linkedin": "https://www.linkedin.com/in/pingyu-chiang/"
+  },
+  "details": {
+    "educations": {
+      "title": "EDUCATION",
+      "content": [
+        {
+          "school": "",
+          "degree": "",
+          "duration": "",
+          "nation": ""
+        }
+      ]
+    },
+    "experiences": {
+      "title": "WORKING EXPERIENCE",
+      "content": [{
+        "company": "",
+        "position": "",
+        "duration": "",
+        "nation": "",
+        "descriptions": [""]
+      }]
+    },
+    "skills": {
+      "title": "SKILLS",
+      "content": [""]
+    }
   }
 }

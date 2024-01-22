@@ -9,7 +9,7 @@ const PersonalInfo = ({ className: classNameProp = "" }) => {
     .replace(/\/$/, "");
 
   return (
-    <div className={className}>
+    <header className={className}>
       <h1 className="text-4xl mb-2 font-bold">{name}</h1>
       <div className="divider-after">
         <a href={`mailto:${email}`}>{email}</a>
@@ -18,7 +18,7 @@ const PersonalInfo = ({ className: classNameProp = "" }) => {
           {linkedinDisplayName}
         </a>
       </div>
-    </div>
+    </header>
   );
 };
 
