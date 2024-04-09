@@ -1,4 +1,22 @@
-.divider-after > *:not(:last-child):after {
-  content: "|";
-  padding: 0 0.5rem;
+.divider-after {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .divider-after {
+    flex-direction: row;
+  }
+
+  .divider-after > *:not(:last-child):after {
+    content: "|";
+    padding: 0 0.5rem;
+  }
+}
+
+@media print {
+  .bg-print-transparent {
+    background-color: transparent !important;
+  }
 }

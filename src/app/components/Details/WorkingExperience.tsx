@@ -22,16 +22,16 @@ const WorkingExperience = ({ info }: Props) => {
     {content.map(({ company, position, nation, duration, descriptions }) => 
       <div key={company} className="flex flex-col mb-2">
         <div className="flex flex-col mb-1">
-          <div className="flex justify-between font-bold text-lg">
+          <div className="flex justify-between font-bold text-sm sm:text-base">
             <span>{company}</span>
-            <span>{nation}</span>
+            <span className="invisible sm:visible">{nation}</span>
           </div>
-          <div className="flex justify-between">
+          <div className="flex flex-col sm:flex-row text-xs sm:text-sm justify-between italic">
             <span>{position}</span>
             <span>{duration}</span>
           </div>
         </div>
-        <ul className="list-disc pl-4">
+        <ul className="list-disc pl-4 text-xs sm:text-sm">
           {descriptions.map((description) => <li key={description}>{description}</li>)}
         </ul>
       </div>

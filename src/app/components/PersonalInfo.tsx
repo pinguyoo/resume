@@ -10,8 +10,8 @@ const PersonalInfo = ({ className: classNameProp = "" }) => {
 
   return (
     <header className={className}>
-      <h1 className="text-4xl mb-2 font-bold">{name}</h1>
-      <div className="divider-after">
+      <h1 className="text-4xl mb-2 font-bold text-xl sm:text-4xl">{name}</h1>
+      <div className="divider-after text-xs sm:text-lg">
         <a href={`mailto:${email}`}>{email}</a>
         <span>{phone}</span>
         <a className="underline" href={linkedin}>
