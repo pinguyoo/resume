@@ -11,7 +11,7 @@ const Skill = ({ info }: Props) => {
   const { title, content } = info
 
   return <Section title={title}>
-    {content.join(', ')}
+    <span className="text-xs sm:text-sm">{content.join(', ')}</span>
   </Section>
 }
 

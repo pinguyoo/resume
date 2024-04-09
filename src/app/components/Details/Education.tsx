@@ -21,13 +21,13 @@ const Education = ({ info }: Props) => {
     {content.map(({ school, degree, nation, duration }) => 
       <div key={degree} className="flex flex-col mb-2">
         <div className="flex flex-col mb-1">
-          <div className="flex justify-between font-bold text-lg">
+          <div className="flex justify-between font-bold text-sm sm:text-base">
             <span>{school}</span>
-            <span>{nation}</span>
+            <span className="invisible sm:visible">{nation}</span>
           </div>
-          <div className="flex justify-between">
+          <div className="flex flex-col sm:flex-row text-xs sm:text-sm justify-between">
             <span>{degree}</span>
-            <span>{duration}</span>
+            <span className="italic">{duration}</span>
           </div>
         </div>
       </div>
