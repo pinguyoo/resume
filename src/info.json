@@ -10,26 +10,51 @@
       "title": "EDUCATION",
       "content": [
         {
-          "school": "",
-          "degree": "",
-          "duration": "",
-          "nation": ""
+          "school": "National Central University",
+          "degree": "Master of science in Computer Science & Information Engineering",
+          "duration": "Aug 2016 - Aug 2018",
+          "nation": "Taiwan"
+        },
+        {
+          "school": "National Chung Cheng University",
+          "degree": "Bachelor of science in Computer Science & Information Engineering",
+          "duration": "Sep 2010 - Jun 2014",
+          "nation": "Taiwan"
         }
       ]
     },
     "experiences": {
       "title": "WORKING EXPERIENCE",
-      "content": [{
-        "company": "",
-        "position": "",
-        "duration": "",
-        "nation": "",
-        "descriptions": [""]
-      }]
+      "content": [
+        {
+          "company": "Amazingtalker",
+          "position": "Senior Frontend Engineer",
+          "duration": "Jun 2022 - Present",
+          "nation": "Taiwan",
+          "descriptions": [
+            "Architected and realized a micro-frontend service decomposition, achieving reductions in service response time and enhancing development efficiency.",
+            "Elevated deployment efficiency by implementing the CI/CD pipeline for micro-frontend architecture.",
+            "Designed and implemented the video carousel player to increase user retention time and boost platform traffic.",
+            "Improved marketing efficiency and conversion rates by optimizing SEO and implementing A/B testing features.",
+            "Mentored team members, providing supports for feature developments and product refactoring."
+          ]
+        },
+        {
+          "company": "Openfind Information Technology Co., Ltd.",
+          "position": "Software Engineer",
+          "duration": "Aug 2018 - Jun 2022",
+          "nation": "Taiwan",
+          "descriptions": [
+            "Developed enterprise mail system, providing modern layouts and more intelligent, secure features.",
+            "Designed and implemented the automatic deployment with Docker and GitLab CI/CD.",
+            "Designed and built a bot framework, leveraging Hubot to build enterprise internal chatbot on instant messenger."
+          ]
+        }
+      ]
     },
     "skills": {
       "title": "SKILLS",
-      "content": [""]
+      "content": ["JavaScript", "Vue.js", "Angular", "Node.js", "React.js", "Typescript", "Docker", "Github Actions", "RxJS"]
     }
   }
 }
