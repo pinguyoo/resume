@@ -32,10 +32,13 @@
           "duration": "Jun 2022 - Present",
           "nation": "Taiwan",
           "descriptions": [
-            "Architected and realized a micro-frontend service decomposition, achieving reductions in service response time and enhancing development efficiency.",
-            "Elevated deployment efficiency by implementing the CI/CD pipeline for micro-frontend architecture.",
-            "Designed and implemented the video carousel player to increase user retention time and boost platform traffic.",
-            "Improved marketing efficiency and conversion rates by optimizing SEO and implementing A/B testing features.",
+            "Architected and realized a micro-frontend service decomposition, splitting main site service architecture to achieve reductions in service response time and enhancing development efficiency.",
+            "Designed and developed a migration script using JavaScript, based on Abstract Syntax Tree operations to accelerate the decomposition of the main site service process, reducing development costs.",
+            "Elevated deployment efficiency by implementing the CI/CD pipeline for micro-frontend architecture within an Nx monorepo, utilizing Github Actions to automate the deployment process.",
+            "Designed and implemented the HLS video carousel player that operates seamlessly across web and mobile environments to increase user retention time and boost platform traffic.",
+            "Improved marketing efficiency and conversion rates by optimizing SEO and implementing A/B testing features within Nuxt.js.",
+            "Crafted a dynamic content management system for landing pages, substantially enhancing the speed and efficiency of experimental deployments.",
+            "Implemented automated video recording downloading using AWS SQS and Lambda, enhancing system data utilization efficiency.",
             "Mentored team members, providing supports for feature developments and product refactoring."
           ]
         },
@@ -45,7 +48,9 @@
           "duration": "Aug 2018 - Jun 2022",
           "nation": "Taiwan",
           "descriptions": [
-            "Developed enterprise mail system, providing modern layouts and more intelligent, secure features.",
+            "Developed enterprise mail system using Angular for frontend development, and Node.js with GraphQL as the middleware for backend API integration, providing modern layouts and more intelligent, secure features.",
+            "Containerized the mail system with Docker for convenient and rapid deployment, reducing the time required for deployment and maintenance.",
+            "Utilized Nginx as a reverse proxy server to effectively control access points and enhance the system's safety and reliability.",
             "Designed and implemented the automatic deployment with Docker and GitLab CI/CD.",
             "Designed and built a bot framework, leveraging Hubot to build enterprise internal chatbot on instant messenger."
           ]
@@ -54,7 +59,7 @@
     },
     "skills": {
       "title": "SKILLS",
-      "content": ["JavaScript", "Vue.js", "Angular", "Node.js", "React.js", "Typescript", "Docker", "Github Actions", "RxJS"]
+      "content": ["JavaScript", "Nuxt.js", "Vue.js", "Angular", "Node.js", "React.js", "Typescript", "Docker", "Github Actions", "RxJS"]
     }
   }
 }
